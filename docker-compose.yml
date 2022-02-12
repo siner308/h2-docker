@@ -2,7 +2,7 @@ version: '3'
 
 services:
   h2:
-    image: oscarfonts/h2:2.0.204
+    image: oscarfonts/h2:1.4.199
     ports:
       - "81:81"
       - "1521:1521"
