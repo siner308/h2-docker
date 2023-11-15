@@ -1,0 +1,29 @@
+repo_name: siner308/h2-docker
+report_id: 0ab08cad7d89091c8e18925c5b8b869c
+repo_type: Public
+timestamp: '2023-11-15T10:23:40+00:00'
+requested_by: siner308
+provider: github
+branch: master
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: H2O LLM Studio
+  description: A framework and no-code GUI for fine-tuning LLMs
+  website_url: https://github.com/h2oai/h2o-llmstudio
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/49018/default_1ecb6c1404a437603a47d836daa28be8612b98f5.png
+  detection_source: docker-compose.yml
+  last_updated_by: siner308
+  last_updated_on: 2022-02-11 10:59:16.000000000 Z
